@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #0a0909;
+}
+header {
+    background-color: hsla(0, 0%, 0%, 0.664);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1200x400?text=Coffee+Shop'); /* Replace with actual image URL */
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 5, 5);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+button {
+    background-color: #7271b9;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #050505;
+    width: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .menu-items {
+        flex-direction: column;
+    }
+}
